@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Smit-Portfolio</title>
+    <script src="https://kit.fontawesome.com/48941846b6.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span class="typing"></span></p>
+                <h1>Hi, I'm <span>Smit</span></br> Patel From India<!--<span class="Ind">In</span>d<span class="ia">ia</span>--></h1>
+                <a href="images/SmitPatel-Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a self-taught Mobile App Developer, I love solving problems with mobile apps that have a good balance of minimal elegant design & great functionality. </br> And i also constantly stay updated with the latest web development trends and best practices to ensure that my work is at the forefront of industry standards. I'm passionate about continuously expanding my knowledge and exploring new technologies to deliver innovative solutions.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Develop Web Applications</li>
+                            <li><span>Application Development</span><br>Develop Android Applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Attended a Hackathon</li>
+                            <li><span>2023</span><br>Develop a Musico Player</li>
+                            <li><span>2023</span><br>Develop  Portfolio</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016-2018</span><br>Purshued a Secondary School</li>
+                            <li><span>2018-2020</span><br>Purshued a High School</li>
+                            <li><span>2020-2024(Expected)</span><br>Purshuing IT Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------services-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>Welcome to my web and app design portfolio! With practising in creating captivating and user-friendly websites and apps, I specialize in delivering modern designs that engage audiences and elevate brands. By focusing on intuitive navigation, visually appealing layouts, and seamless responsiveness, I ensure a remarkable user experience across all devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Welcome to my front-end web development portfolio! With expertise in front-end development, I practising in creating visually appealing and interactive websites that provide exceptional user experiences. Using HTML, CSS, and JavaScript, I have a strong command over creating responsive layouts, implementing intuitive navigation, and integrating dynamic elements</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Welcome to my app development portfolio! With expertise in app development, I practising in creating innovative and user-centric mobile applications. I have a strong command over programming languages such as Java and React Native. I have experience in building feature-rich applications, integrating APIs and backend services, and ensuring seamless performance across various devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------- Portfolio ------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-4.jpg" alt="">
+                    <div class="layer">
+                        <h3>Gujarat Metaverse Museum</h3>
+                        <p>I was participated in Gujarat Hackathon 2022, The Gujarat Metaverse Museum project was an exciting venture that aims to create a virtual museum experience showcasing the rich cultural heritage of Gujarat, India. By leveraging metaverse technology, we were designing an immersive and interactive platform where visitors can explore various exhibits, artifacts, and artworks representing the diverse history and traditions of Gujarat.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Musico player App</h3>
+                        <p>The Music Player app project in Android Studio is an exciting endeavor that focuses on creating a feature-rich and user-friendly music player application for Android devices. My goal is to provide music enthusiasts with a seamless and immersive listening experience while offering a range of functionalities to enhance their enjoyment.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-5.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Web</h3>
+                        <p>The Portfolio Website project focuses on designing and developing a captivating and professional website to showcase your skills, experience, and accomplishments. Leveraging HTML, CSS, and JavaScript, My aims to create a visually appealing and user-friendly website that reflects my personal brand and leaves a lasting impression on visitors.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------- contact ---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>smytpatel09@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9157596767</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100012029717833" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Smytpatel09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/smit-patel-7b7198211" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/smyt_patel?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Smitpatel0409" target="_blank"><i class="fa-brands fa-github" ></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                        <!-- <input type="submit" value="Send" class="btn btn-primary"> -->
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 2024. Made with <i class="fa-solid fa-heart"></i> by Smit. </p>
+        </div>
+    </div>
+    <script>
+        
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById('sidemenu');
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw5M1VPK_xrdwXPaIr054miR3E0NIS0sVJ65exL_0e8TxtNgtRzQfWjOta2q7gEBdrK/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>    
+      <script>
+        var typed = new Typed(".typing", {
+        strings: ["Software Developer", "Blogger", "Software Designer", "Freelancer", "Video Editor"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+      </script>
+</body>
+</html>
